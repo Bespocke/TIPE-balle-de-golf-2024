@@ -7,7 +7,7 @@ Nous nous intéresserons aux différents mécanismes, qui permettent aux balles 
 Voici des examples de la modélisation réalisé:
 <br>
 
-<center>![](example2.gif)</center<
+<center>![](example2.gif)</center>
 
 <center>![](example.gif)</center>
 
