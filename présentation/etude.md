@@ -287,7 +287,7 @@ carry : 1024
 altitude maximale : 328
 ```
 <br>
-<center><img src="image/lancer magnus/Capture d’écran 2023-08-06 à 10.58.08.png" alt="traj parabole" width="700" height="350"></center>
+<center><img src="image/lancer magnus/Capture d’écran 2023-08-06 à 10.58.08.png" alt="traj parabole" width="700" height="350"></center>
 <br>
 
 On observe bien deux phases pour la trajectoire de la balle:
