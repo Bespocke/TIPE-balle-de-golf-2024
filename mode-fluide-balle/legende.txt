@@ -1,0 +1,16 @@
+#
+
+La teinte du fluide représente le curl du champ de vélocité. 
+Le curl est une mesure de la rotation du fluide en chaque point. 
+La teinte varie du bleu au rouge, où le bleu correspond à un faible curl (le fluide ne tourne pas beaucoup), et le rouge correspond à un curl élevé (le fluide tourne rapidement). 
+Ainsi, les zones rouges représentent des régions de forte vorticité ou de mouvement de rotation dans le fluide.
+
+La luminosité du fluide représente la concentration du colorant. 
+Les zones plus lumineuses indiquent des concentrations plus élevées de colorant, tandis que les zones plus sombres indiquent des concentrations plus faibles.
+
+La saturation du fluide est réglée sur 1, ce qui signifie que la couleur du fluide est entièrement saturée, c'est-à-dire qu'il n'y a pas de perte d'intensité de couleur.
+
+#
+
+Dans les gifs de pression plus la zone est claire plus la pression est elevée
+
