@@ -5,8 +5,16 @@ Le thème de l'année 2024 étant le sport. J'ai décidé de baser mon étude su
 Nous nous intéresserons aux différents mécanismes, qui permettent aux balles de golf d'avoir un vol plus important que ce qu'elles devraient réaliser sans ces derniers.
 
 Voici des examples de la modélisation réalisé:
+
+
 ![](example2.gif)
+
 ![](example.gif)
+
+A la suite de la modélisation j'ai effectué des expérimentations:
+- voir a faire.md
+
+
 
 
 
