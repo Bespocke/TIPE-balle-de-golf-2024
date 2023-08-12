@@ -16,7 +16,7 @@ En particulier la distance à chaque coup peut avoir une influence sur le score 
 <span style="font-size: 16px;">La balle de golf a été et est source de nombreuses innovations technologiques.</span>
 
  
-<center><img src="image/immage annexe/Capture d’écran 2023-08-06 à 09.59.50.png" alt="proV1" width="350" height="200"></center>
+<center><img src="image/immage annexe/Capture d’écran 2023-08-06 à 09.59.50.png" alt="proV1" width="350" height="200"></center>
 <br>
 
 <span style="font-size: 16px;">avec pour fer de lance la titleist Pro-V1. Pionnière dans l'évolution des balles :</span>
