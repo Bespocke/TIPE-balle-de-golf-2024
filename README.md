@@ -11,9 +11,7 @@ Voici des examples de la modélisation réalisé:
 
 ![](example.gif)
 
-A la suite de la modélisation j'ai effectué des expérimentations:
 
-- voir a faire.md
 
 
 
