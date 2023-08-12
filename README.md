@@ -4,6 +4,8 @@ Le thème de l'année 2024 étant le sport. J'ai décidé de baser mon étude su
 
 Nous nous intéresserons aux différents mécanismes, qui permettent aux balles de golf d'avoir un vol plus important que ce qu'elles devraient réaliser sans ces derniers.
 
+![](example.gif)
+
 
 
 
