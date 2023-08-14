@@ -159,12 +159,12 @@ Puis pour le nombre d'itération voulue :
 
 3. L'advection des quantités du fluide est calculée en utilisant l'équation d'advection discrétisée pour mettre à jour les positions des particules dans l'espace.
 Les quantités du fluide (vélocité et teinture) sont déplacées dans le temps en fonction de leur valeur précédente et de la vélocité du fluide. u et v sont les composantes de la vélocité du fluide dans respectivement les directions x et y. La nouvelle quantité de teinture Q_new à la position (x, y) et à l'instant t est :
-$Q_{new}(x, y, t + dt) = Q(x - dt \times u, y - dt \times v, t)$
+$$Q_{new}(x, y, t + dt) = Q(x - dt \times u, y - dt \times v, t)$$
 4. La pression est ensuite corrigé afin que le fluide reste incompressible, la condition à vérifier est : 
-$\frac{∂u}{∂x} + \frac{∂v}{∂y} = 0$
+$$\frac{∂u}{∂x} + \frac{∂v}{∂y} = 0$$
 5. Le jacobien du champ de vélocité est calculé pour obtenir la divergence et le curl du fluide.
 Le curl du champ de vélocité est utilisé pour déterminer les propriétés du mouvement du fluide, comme les tourbillons. Le curl du champ 2D est : 
-$ curl(u, v) = \frac{∂v}{∂x} - \frac{∂u}{∂y}$
+$$ curl(u, v) = \frac{∂v}{∂x} - \frac{∂u}{∂y}$$
 6. Le résultat du calcul du curl est ajusté en utilisant une fonction d'erreur (ici, l'erreur fonctionnelle) pour améliorer le contraste des tourbillons.
 7. La couleur du fluide est déterminée en utilisant les valeurs du curl, la teinture et des composantes constantes pour créer un champ de couleur.
 Le champ de couleur est converti en valeurs d'intensité RGB et les images correspondantes sont enregistrées à chaque étape temporelle.
@@ -237,7 +237,7 @@ Quand nous observons la trajectoire des balles, des meilleurs joueurs de golf, o
 -Une seconde où la balle semble flotter en l'air jusqu'à sa première touche avec le sol
 
 une manière simpliste de modéliser l'effet Magnus est :
-$M = -\frac{1}{2} \times \rho \times A \times Cl \times Vb \times Vr \cdot e_y $
+$$M = -\frac{1}{2} \times \rho \times A \times Cl \times Vb \times Vr \cdot e_y $$
 
 
 <blockquote>
@@ -251,7 +251,7 @@ $M = -\frac{1}{2} \times \rho \times A \times Cl \times Vb \times Vr \cdot e_y $
 
 
 Un autre modèle de Magnus est : 
-$M = -\alpha \cdot ( \vec{\omega} \wedge \vec{v})$
+$$M = -\alpha \cdot ( \vec{\omega} \wedge \vec{v})$$
 <blockquote>
 &alpha; en kg.rad-1 est un coefficient lié à la
 nature de la balle  
@@ -263,9 +263,9 @@ nature de la balle
 Cependant étant donné qu'il est extrêmement difficile d'obtenir la vitesse de rotation de la balle pendant son vol.
 Et que la croissance de la trajectoire semble exponentielle.
 Nous avons décidé, dans notre simulation que l'effet Magnus : 
-$ M = -1.1^{temps \space écoulé \space en \space seconde} \cdot e_y$
+$$ M = -1.1^{temps \space écoulé \space en \space seconde} \cdot e_y$$
 Puis une fois la croissance terminée, l'effet Magnus possède une valeur constante de :
-$M = -0,6 \cdot e_y$
+$$M = -0,6 \cdot e_y$$
 
 En considérant les mêmes paramètres que pour la première simulation :
 ```python
