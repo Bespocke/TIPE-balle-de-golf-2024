@@ -1,3 +1,6 @@
 # Ignorer les fichiers caches Python
 *.pyc
 __pycache__/
+
+.DS_Store
+
