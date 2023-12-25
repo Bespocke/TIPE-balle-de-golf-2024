@@ -65,7 +65,5 @@ for f in range(DURATION):
     ball_color = np.array([255, 0, 0], dtype='uint8')
     color[fluid.ball_mask] = ball_color
 
-    frames.append(Image.fromarray(color, mode='HSV').convert('RGB'))
+    frames.append(Image.fromarray(color, mode='HSV').
 
-print('Saving simulation result.')
-frames[0].save('example2.gif', save_all=True, append_images=frames[1:], duration=20, loop=0)
