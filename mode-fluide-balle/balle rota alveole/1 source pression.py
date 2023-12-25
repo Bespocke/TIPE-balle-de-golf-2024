@@ -1,6 +1,4 @@
-import numpy as np
-from PIL import Image
-from scipy.special import erf
+
 
 from fluid import Fluid
 
