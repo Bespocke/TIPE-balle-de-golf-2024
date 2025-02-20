@@ -172,7 +172,7 @@ $$ curl(u, v) = \frac{∂v}{∂x} - \frac{∂u}{∂y}$$
 7. La couleur du fluide est déterminée en utilisant les valeurs du curl, la teinture et des composantes constantes pour créer un champ de couleur.
 Le champ de couleur est converti en valeurs d'intensité RGB et les images correspondantes sont enregistrées à chaque étape temporelle.
 
-### Nous avons commencé par implémenté un carré : 
+### Nous avons commencé par implémenter un carré : 
 <center><img src="image/carre/carre.gif" alt="grosse balle 1 source" width="250" height="250"></center>
 <br>
 
